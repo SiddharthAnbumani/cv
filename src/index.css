@@ -179,6 +179,14 @@ html, body {
   position: relative;
   z-index: 1;
   color: white;
-  padding: 100px;
+  /* padding: 100px; */
 }
+
+/* 
+.content2 {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 100px;
+} */
 
