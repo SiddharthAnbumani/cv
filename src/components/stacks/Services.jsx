@@ -7,31 +7,31 @@ export default function Services() {
   {/* Left Section */}
   <div className="flex flex-col justify-center items-center w-5/12 lg:w-[6/12]">
     <div className="slide-left w-full flex justify-center ">
-      <p className="bg-white/30 sm:text-lg md:text-lg lg:text-2xl text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-xl w-[500px] whitespace-nowrap">
+      <p className="bg-white/30 text-sm md:text-lg lg:text-2xl text-white text-center font-bold rounded-3xl py-5 px-3 my-2 whitespace-nowrap md:w-[500px]">
         Single Page Applications (SPAs)
       </p>
     </div>
 
     <div className="slide-left w-full flex justify-center">
-      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-xl w-[500px] whitespace-nowrap sm:text-xl md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl">
+      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-sm whitespace-nowrap  md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl md:w-[500px]">
         Custom Portfolio Websites
       </p>
     </div>
 
     <div className="slide-left w-full flex justify-center">
-      <p className="bg-white/30 text-white text-center font-extrabold rounded-3xl py-5 px-3 my-2 text-xl w-[500px] whitespace-nowrap sm:text-xl md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl">
+      <p className="bg-white/30 text-white text-center font-extrabold rounded-3xl py-5 px-3 my-2 text-sm whitespace-nowrap  md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl md:w-[500px]">
         Startup and Business Websites
       </p>
     </div>
 
     <div className="slide-left w-full flex justify-center">
-      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-xl w-[500px] whitespace-nowrap sm:text-xl md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl">
+      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-sm  whitespace-nowrap  md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl md:w-[500px]">
         Full-Stack Web Solutions
       </p>
     </div>
 
     <div className="slide-left w-full flex justify-center">
-      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-xl w-[500px] whitespace-nowrap sm:text-xl md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl">
+      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-sm  whitespace-nowrap  md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl md:w-[500px]">
         E-Commerce Solutions
       </p>
     </div>
@@ -43,31 +43,31 @@ export default function Services() {
   {/* Right Section */}
   <div className="flex flex-col justify-center items-center w-5/12">
     <div className="slide-right w-full flex justify-center">
-      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-xl w-[500px] whitespace-nowrap sm:text-xl md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl">
+      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-sm  whitespace-nowrap md:text-xl  lg:text-2xl xl:text-2xl 2xl:text-2xl md:w-[500px]">
         Landing Pages
       </p>
     </div>
 
     <div className="slide-right w-full flex justify-center">
-      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-xl w-[500px] whitespace-nowrap sm:text-xl md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl" >
+      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-sm whitespace-nowrap  md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl md:w-[500px]" >
         UI/UX Design
       </p>
     </div>
 
     <div className="slide-right w-full flex justify-center">
-      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-xl w-[500px] whitespace-nowrap sm:text-xl md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl">
+      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-sm whitespace-nowrap  md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl md:w-[500px]">
         Website Maintenance and Support
       </p>
     </div>
 
     <div className="slide-right w-full flex justify-center">
-      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-xl w-[500px] whitespace-nowrap sm:text-xl md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl">
+      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-sm whitespace-nowrap  md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl md:w-[500px]">
         API Integration
       </p>
     </div>
 
     <div className="slide-right w-full flex justify-center">
-      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-xl w-[500px] whitespace-nowrap sm:text-xl md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl">
+      <p className="bg-white/30 text-white text-center font-bold rounded-3xl py-5 px-3 my-2 text-sm whitespace-nowrap  md:text-xl lg:text-2xl xl:text-2xl 2xl:text-2xl md:w-[500px]">
         CMS Development
       </p>
     </div>
