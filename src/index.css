@@ -57,14 +57,14 @@
   }
 }
 
-/* Slide from Left */
+
 .slide-left {
   animation: slideInLeft 1s ease-out;
   animation-timeline: view();
   animation-range: entry 0 cover 30%;
 }
 
-/* Slide from Right */
+
 .slide-right {
   animation: slideInRight 1s ease-out;
   animation-timeline: view();
@@ -100,6 +100,15 @@
   background: linear-gradient(90deg, rgba(50,4,15,1) 0%, rgba(42,21,78,1) 69%);
 }
 
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
 
 .spline-background {
   position: fixed;
@@ -111,31 +120,50 @@
   height: 100vh;
   z-index: -1;
   overflow: hidden;
-
+  pointer-events: none;
 }
 
 .spline-background > canvas, 
 .spline-background > div {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures it fills the space */
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; 
 }
 
 
-/* .spline-background {
-  position: fixed;
-  backdrop-filter: blur(100px);
-  -webkit-backdrop-filter: blur(10px);
-  top: 0;
-  left: 0;
-  width: 100vw;
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto; 
   height: 100vh;
-  z-index: -1;
-} */
+}
 
-/* .spline-background canvas{
-  filter: blur(3px);
-} */
+
+@media screen and (max-width: 640px) {
+  .spline-background > canvas, 
+  .spline-background > div {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1536px) {
+  .spline-background > canvas, 
+  .spline-background > div {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1537px) {
+  .spline-background > canvas, 
+  .spline-background > div {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
 
 .overlay {
   position: fixed;
@@ -143,7 +171,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0); /* Dark overlay for readability */
+  background-color: rgba(0, 0, 0, 0); 
   z-index: 0;
 }
 
@@ -154,38 +182,3 @@
   padding: 100px;
 }
 
-
-.background-section-home {
-  background-image: url('Pattern-bg-2.avif');
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.background-section-home-2 {
-  background-image: url('Pattern-bg-1.avif');
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
-.background-section-resume {
-  background-image: url('Japan-bg-2.avif');
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.background-section-resume-bg-2{
-  background-image: url('Japan-bg.avif');
-  height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 100%;
-}

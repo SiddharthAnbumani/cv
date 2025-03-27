@@ -2,7 +2,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import Project from "./pages/Project"
-import Resume from "./pages/Resume"
 import Contact from "./pages/About"
 import Landing from "./pages/Landing"
 import './index.css'
@@ -26,10 +25,9 @@ export default function App(){
           <Route path="/enduro" element={<EnduroChrono/>} />
           <Route path="/nasa" element={<NasaDaily/>} />
 
-          <Route path="/resume" element={<Resume/>}/>
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
-      </BrowserRouter>z
+      </BrowserRouter>
     </div>
   )
 }
