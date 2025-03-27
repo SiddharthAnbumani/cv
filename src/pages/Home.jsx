@@ -17,7 +17,7 @@ export default function Home() {
 
       <div className="overlay"></div>
 
-      <div className="content2">
+      <div className="content">
         {/* Centering Section */}
         <div className="flex flex-col justify-center items-center min-h-[70vh]">
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
