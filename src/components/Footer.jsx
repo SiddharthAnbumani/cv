@@ -1,8 +1,8 @@
-import { BsInstagram } from "react-icons/bs";
-import { FaGithub, FaInstagram } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
-import { FaPhoneSquareAlt } from "react-icons/fa";
+// import { BsInstagram } from "react-icons/bs";
+// import { FaGithub, FaInstagram } from "react-icons/fa6";
+// import { FaLinkedinIn } from "react-icons/fa";
+// import { SiGmail } from "react-icons/si";
+// import { FaPhoneSquareAlt } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -20,7 +20,7 @@ export default function Footer() {
               >
               <div className="flex justify-center items-center space-x-1">
                   <p>Linked</p>
-                  <FaLinkedinIn />
+                  {/* <FaLinkedinIn /> */}
                 </div>
               </a>
               <a
@@ -30,7 +30,7 @@ export default function Footer() {
               >
                 <div className="flex justify-center items-center space-x-2">
                   <p>Github </p>
-                  <FaGithub />
+                  {/* <FaGithub /> */}
                 </div>
               </a>
               <a
@@ -40,7 +40,7 @@ export default function Footer() {
               >
                  <div className="flex justify-center items-center space-x-2">
                   <p>Instagram</p>
-                  <FaInstagram />
+                  {/* <FaInstagram /> */}
                 </div>
               </a>
             </div>
@@ -75,7 +75,7 @@ export default function Footer() {
             <h1 className="text-lg font-bold">Contact Information</h1>
             {/* <p className="transition-transform duration-300 hover:scale-110">+91 7305175711</p> */}
                 <div className="flex justify-center items-center space-x-2 transition-transform duration-300 hover:scale-110">
-                  <FaPhoneSquareAlt />
+                  {/* <FaPhoneSquareAlt /> */}
                   <p>+91 7305175711 </p>
                 </div>
             <a
@@ -83,7 +83,7 @@ export default function Footer() {
               className="text-blue-500 transition-transform duration-300 hover:scale-110"
             >
               <div className="flex justify-center items-center space-x-2">
-                  <SiGmail />
+                  {/* <SiGmail /> */}
                   <p className="font-extrabold" >Gmail </p>
                 </div>
             </a>

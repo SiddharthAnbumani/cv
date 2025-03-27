@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import TechStack from '../components/stacks/TechStack'
 import Services from '../components/stacks/Services'
 import Footer from '../components/Footer'
-import Socials from '../components/Socials'
+// import Socials from '../components/Socials'
 
 
 export default function Home() {
@@ -63,7 +63,7 @@ export default function Home() {
               </motion.div>
 
 
-                <Socials/>
+                {/* <Socials/> */}
 
               </div>
 
