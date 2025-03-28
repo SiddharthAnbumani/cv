@@ -11,7 +11,7 @@ export default function EnduroChrono(){
                 <IndividualProject
                 title="EnduroChrono"
                 tag="Single Page Application"
-                vid="endurochrono/endurochrono.mov"
+                vid1="endurochrono/endurochrono.mov"
                 description="Built with React and optimized for performance, EnduroChrono 
                 offers an intuitive interface, smooth animations, and an adaptive design
                 that seamlessly works across all devices. To ensure maximum efficiency, 

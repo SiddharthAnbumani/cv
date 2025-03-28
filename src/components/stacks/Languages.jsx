@@ -19,7 +19,7 @@ export default function Languages() {
 
           <div className="space-y-2 space-x-2 md:flex">
             <TechItem img='js2.webp' text='JavaScript'/>
-            <TechItem img='typescript.png' text='Typescript'/>
+            <TechItem img='ts.png' text='Typescript'/>
           </div>
         </div>
 

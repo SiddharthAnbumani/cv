@@ -13,7 +13,7 @@ export default function Skipsense(){
                 tag="Single Page Application"
                 img1='skipsense/profile.png'
                 img2='skipsense/result.png'
-                vid='skipsense/skipsense.mov'
+                vid1='skipsense/skipsense.mov'
                 description="SkipSense is a smart and intuitive application
                  designed to help students track their attendance and determine 
                  how many classes they can skip while maintaining the required 75% 

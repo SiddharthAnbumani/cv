@@ -12,8 +12,8 @@ export default function Backend() {
         </div>
         
         <div className="flex md:flex-row justify-center items-center space-x-2  md:space-y-0 md:space-x-5">
-          <TechItem img='mongodb.webp' text='MongoDB'/>
-          <TechItem img='node.svg' text='Node.js'/>
+          <TechItem img='mongodb.svg' text='MongoDB'/>
+          <TechItem img='nodejs.webp' text='Node.js'/>
           <TechItem img='express.png' text='Express'/>
         </div>
       </div>

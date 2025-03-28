@@ -49,8 +49,8 @@ export default function DesignFrameworks() {
         <div className="flex md:flex-col space-x-2 justify-center items-center w-full md:w-8/12 md:space-y-10">
           <div className="flex flex-col md:flex-row justify-center items-center flex-wrap gap-5">
             <TechItem img='bootstrap.png' text='Bootstrap' />
-            <TechItem img='reactbootstrap.png' text='React-Bootstrap' />
-            <TechItem img='tailwindcss.png' text='TailwindCSS' />
+            <TechItem img='chakra.png' text='Chakra' />
+            <TechItem img='tailwindcss.png' text='Tailwind' />
             <TechItem img='shadcn.png' text='Shadcn' />
           </div>
 

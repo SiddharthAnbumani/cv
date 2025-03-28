@@ -3,7 +3,7 @@ import VideoComponent from "../VideoComponent"
 import { motion } from "framer-motion"
 
 export default function IndividualProject({
-    title,img1,img2,img3,img4,img5,img6,vid,description,tag,tech1,tech2,tech3,tech4,tech5,tech6}){
+    title,img1,img2,img3,img4,img5,img6,vid1, vid2,description,tag,tech1,tech2,tech3,tech4,tech5,tech6}){
     return(
     <div className="flex flex-col justify-center items-center ">
 
@@ -21,10 +21,10 @@ export default function IndividualProject({
                 {img1 || img2 ? 
                 <div className="flex flex-col  md:flex-row lg:flex-row xl:flex-row 2xl-flex-row w-[80%] space-x-5 bg-black mx-5">
                     <div className="w-full md:w-6/12 my-2">
-                        {img1 ? <img src={img1} alt=""  className="md:h-full rounded-lg"/> : null}
+                        {img1 ? <img src={img1} alt=""  className=" rounded-lg"/> : null}
                     </div>
                     <div className="w-full md:w-6/12 my-2">
-                        {img2 ? <img src={img2} alt=""  className=" md:h-full rounded-lg"/> : null}
+                        {img2 ? <img src={img2} alt=""  className=" rounded-lg"/> : null}
                     </div>
 
                 </div> : null}
@@ -33,11 +33,11 @@ export default function IndividualProject({
                 {img3 || img4 ?
                 <div className=" flex flex-col  md:flex-row lg:flex-row xl:flex-row 2xl-flex-row w-[80%] space-x-5 bg-black mx-5">
                     <div className="w-full md:w-6/12 my-2">
-                        {img3 ? <img src={img3} alt=""  className=" md:h-full rounded-lg"/> : null}
+                        {img3 ? <img src={img3} alt=""  className="  rounded-lg"/> : null}
                     </div>
 
                     <div className="w-full md:w-6/12 my-2">
-                        {img4 ? <img src={img4} alt=""  className=" md:h-full rounded-lg"/> : null}
+                        {img4 ? <img src={img4} alt=""  className="  rounded-lg"/> : null}
                     </div>
                 </div>  : null
                 }
@@ -45,11 +45,11 @@ export default function IndividualProject({
                 {img5 || img6 ?
                 <div className="flex w-[80%] space-x-5 bg-black mx-5">
                     <div className="w-full  md:w-6/12 my-2">
-                        {img5 ? <img src={img5} alt=""  className="md:h-full"/> : null}
+                        {img5 ? <img src={img5} alt=""  className="rounded-lg"/> : null}
                     </div>
 
                     <div className="w-full md:w-6/12 my-2">
-                        {img6 ? <img src={img6} alt=""  className="md:h-full"/> : null}
+                        {img6 ? <img src={img6} alt=""  className="rounded-lg"/> : null}
                     </div>
                 </div>  : null
                 }
@@ -58,7 +58,8 @@ export default function IndividualProject({
     </motion.div>
 
 
-        { vid ? <VideoComponent source={vid}/> : null}
+        { vid1 ? <VideoComponent source1={vid1}/> : null}
+        { vid2 ? <VideoComponent source1={vid2}/> : null}
         <div className=" slide-up bg-white/30 backdrop-blur-3xl rounded-3xl m-5 p-5 md:my-10 md:p-10">
             <p className="text-sm w-[300px] md:w-full md:text-lg text-white font-semibold">
                 {description} 
