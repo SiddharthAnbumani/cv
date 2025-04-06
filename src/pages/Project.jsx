@@ -44,14 +44,14 @@ export default function Project() {
               />
             </motion.div>
 
-            <div className="slide-left">
+            {/* <div className="slide-left">
               <ProjectProfile
                 title="Articulate"
                 description="Currently Being Developed"
                 img="my2.jpg"
                 link="/"
               />
-            </div>
+            </div> */}
           </div>
 
           {/* Spacer */}
@@ -79,18 +79,41 @@ export default function Project() {
               />
             </motion.div>
 
-            <div className="slide-right">
+            {/* <div className="slide-right">
               <ProjectProfile
                 title="Eat-split"
                 description="Currently Being Developed"
                 img="my2.jpg"
                 link="/"
               />
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <Outlet />
+        {/* Currently Working */}
+        <div className="hidden w-screen md:flex justify-center my-5">
+        <div className="bg-white/20 w-[70%] backdrop-blur-3xl rounded-4xl flex flex-col items-center">
+        <h1 className="text-5xl font-extrabold font-[alan] my-5 text-green-400">Currently Working On </h1>
+        <h1 className="text-4xl font-extrabold font-[helvetica] my-2">QuantumStore</h1>
+        <p className="bg-black/50 font-extrabold text-center w-[50%] rounded-4xl text-[12px] p-2">Fullstack Application</p>
+        <div className="flex space-x-3 my-2">
+        <img src="/e-com-landing.png" alt="" className="border-b-amber-50 w-70 rounded-3xl" />
+        <img src="/cart.png" alt="" className="border-b-amber-50 w-70 rounded-3xl" />
+        </div>
+        <p className="text-lg px-5 text-center">Developing a full-stack web application using React, Node.js, MongoDB, and Tailwind CSS, implementing both local
+           authentication and Google OAuth using Passport.js for a secure and flexible login experience</p>
+           <p className="font-extrabold text-xl my-3 text-blue-600">Powered By</p>
+        <div className="flex space-x-2 mb-5">
+          <img src="/reactf.webp" alt="" className="rounded-2xl w-[40px] h-[40px] md:w-[60px] md:h-[50px] p-1 bg-black/30"/>
+          <img src="/nodejs.webp" alt="" className="rounded-2xl w-[40px] h-[40px] md:w-[60px] md:h-[50px] p-1 bg-black/30"/>
+          <img src="/mongodb.svg" alt="" className="rounded-2xl w-[40px] h-[40px] md:w-[60px] md:h-[50px] p-1 bg-black/30"/>
+          <img src="/express.png" alt="" className="rounded-2xl w-[40px] h-[40px] md:w-[60px] md:h-[50px] p-1 bg-black/30"/>
+          <img src="/tailwindcss.png" alt="" className="rounded-2xl w-[40px] h-[40px] md:w-[60px] md:h-[50px] p-1 bg-black/30"/>
+        </div>
+
+        </div>
+        </div>
+
       </div>
       <Footer />
     </div>

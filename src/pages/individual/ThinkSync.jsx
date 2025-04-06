@@ -7,7 +7,7 @@ export default function ThinkSync(){
             <div className="spline-background">
                 <Spline scene="/spline/lines.spline" />
             </div>
-            <div className="content">
+            <div className="content ">
                 <IndividualProject
                 tag="FullStack Application"
                 title="ThinkSync"
@@ -24,11 +24,12 @@ export default function ThinkSync(){
                 using Bootstrap, ensuring a responsive and user-friendly interface. Completing ThinkSync 
                 has been a significant milestone in my development journey, reflecting my dedication to 
                 building practical, scalable solutions."
-                tech1='js2.webp'
-                tech2='bootstrap.png'
-                tech3='mongodb.webp'
-                tech4='express.png'
-                tech5='node.svg'
+                tech1='/js2.webp'
+                tech2='/bootstrap.png'
+                tech3='/mongodb.svg'
+                tech4='/express.png'
+                tech5='/nodejs.webp'
+                className='mb-10'
                 />
             </div>
             

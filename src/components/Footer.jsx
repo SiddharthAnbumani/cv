@@ -3,6 +3,7 @@
 // import { FaLinkedinIn } from "react-icons/fa";
 // import { SiGmail } from "react-icons/si";
 // import { FaPhoneSquareAlt } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -17,15 +18,16 @@ export default function Footer() {
               <a
                 className="text-white font-semibold rounded-md px-10 py-3  w-[40%] transition-transform duration-300 hover:scale-110"
                 href="https://www.linkedin.com/in/siddharth-anbumani-778b0124a/"
+                target="_blank" rel="noopener noreferrer"
               >
               <div className="flex justify-center items-center space-x-1">
-                  <p>Linked</p>
+                  <p>LinkedIn</p>
                   {/* <FaLinkedinIn /> */}
                 </div>
               </a>
               <a
                 className="text-white font-semibold rounded-md px-10 py-3  w-[40%] transition-transform duration-300 hover:scale-110"
-
+                target="_blank" rel="noopener noreferrer"
                 href="https://github.com/SiddharthAnbumani"
               >
                 <div className="flex justify-center items-center space-x-2">
@@ -35,7 +37,7 @@ export default function Footer() {
               </a>
               <a
                 className="text-white font-semibold rounded-md px-10 py-3  w-[40%] transition-transform duration-300 hover:scale-110"
-
+                target="_blank" rel="noopener noreferrer"
                 href="https://www.instagram.com"
               >
                  <div className="flex justify-center items-center space-x-2">
@@ -53,20 +55,20 @@ export default function Footer() {
               <a 
               className="transition-transform duration-300 hover:scale-110"
               href="/">Siddharth Anbumani</a>
-              <a 
+              <NavLink 
               className="transition-transform duration-300 hover:scale-110"
-              href="/home">Home</a>
+              to="/home">Home</NavLink>
 
-              <a 
+              <NavLink 
               className="transition-transform duration-300 hover:scale-110"
-              href="/contact">About</a>
+              to="/contact">About</NavLink>
 
-              <a 
+              <NavLink 
               className="transition-transform duration-300 hover:scale-110"
-              href="/project">Projects</a>
-              <a
+              to="/project">Projects</NavLink>
+              <NavLink
               className="transition-transform duration-300 hover:scale-110"
-               href="/resume">Resumé</a>
+               to="/resume">Resumé</NavLink>
             </div>
           </div>
 
@@ -79,7 +81,7 @@ export default function Footer() {
                   <p>+91 7305175711 </p>
                 </div>
             <a
-              href="mailto:siddharth@gmail.com"
+              href="mailto:siddharthanbumani@gmail.com"
               className="text-blue-500 transition-transform duration-300 hover:scale-110"
             >
               <div className="flex justify-center items-center space-x-2">

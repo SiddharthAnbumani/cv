@@ -91,7 +91,7 @@ export default function IndividualProject({
         </div>
 
 
-            <a href="/project" className="bg-white/70 mt-5 px-10 py-3 rounded-3xl font-bold text-lg text-black transition-transform duration-300 hover:bg-white hover:text-blue-950 hover:scale-110">
+            <a href="/project" className="bg-white/70 my-5 mb-10 px-10 py-3 rounded-3xl font-bold text-lg text-black transition-transform duration-300 hover:bg-white hover:text-blue-950 hover:scale-110">
                 back
             </a>
 

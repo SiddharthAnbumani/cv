@@ -120,7 +120,7 @@
   height: 100vh;
   z-index: -1;
   overflow: hidden;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 .spline-background > canvas, 
@@ -137,6 +137,7 @@ html, body {
   overflow-x: hidden;
   overflow-y: auto; 
   height: 100vh;
+
 }
 
 
@@ -183,6 +184,7 @@ html, body {
   background-color: rgba(0, 0, 0, 0); 
   z-index: 0;
 }
+
 .overlay2 {
   position: fixed;
   top: 0;
@@ -192,6 +194,21 @@ html, body {
   background-color: rgba(0, 0, 0, 0); 
   z-index: 0;
   pointer-events: none;
+}
+
+.landing-content {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .content {

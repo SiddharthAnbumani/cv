@@ -9,17 +9,18 @@ import ThinkSync from "./pages/individual/ThinkSync"
 import EnduroChrono from "./pages/individual/EnduroChrono"
 import NasaDaily from "./pages/individual/NasaDaily"
 import Skipsense from "./pages/individual/SkipSense"
+import ScrollToTop from "./components/ScrollToTop"
 
 export default function App(){
   return (
     <div className="body">
       <BrowserRouter>
+      <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Landing/>}/>
           <Route path="/home" element={<Home/>}/>
           <Route path="/project" element={<Project/>}/>
 
-          <Route path="/project" element={<Project/>} />
           <Route path="/thinksync" element={<ThinkSync/>} />
           <Route path="/skipsense" element={<Skipsense/>} />
           <Route path="/enduro" element={<EnduroChrono/>} />
