@@ -21,6 +21,10 @@ export default function Languages() {
             <TechItem img='js2.webp' text='JavaScript'/>
             <TechItem img='ts.png' text='Typescript'/>
           </div>
+
+          <div className="space-y-2 space-x-2 md:flex">
+            <TechItem img='/py.png' text='Python'/>
+          </div>
         </div>
 
       </div>

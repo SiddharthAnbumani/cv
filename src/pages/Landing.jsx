@@ -8,7 +8,7 @@ export default function Landing(){
         <div className="spline-background">
         <Spline scene="/spline/discover_2.spline" />
         </div>
-        <div className="text-white lg:mt-20">
+        <div className="text-white content lg:mt-20">
             <div className="flex flex-col items-center justify-center text-center h-screen">
             <motion.div
                 initial={{ opacity: 0 }} // Start fully transparent
