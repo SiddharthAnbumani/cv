@@ -3,7 +3,7 @@ import TechItem from "./TechItem";
 export default function Languages() {
   return (
     <div className="flex justify-center slide-right">
-      <div className="md:w-[80%] my-5 p-5 bg-black/70  md:bg-white/30  text-white rounded-4xl flex flex-col items-center justify-center md:flex-row">
+      <div className="md:w-[80%] my-5 p-5 bg-black/70  md:bg-white/10  text-white rounded-4xl flex flex-col items-center justify-center md:flex-row">
         
         {/* Title Section */}
         <div className="flex justify-center items-center text-center md:w-5/12">

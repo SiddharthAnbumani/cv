@@ -4,7 +4,7 @@ import TechItem from './TechItem';
 export default function Backend() {
   return (
     <div className="slide-left flex justify-center">
-      <div className="md:w-[70%] my-5 p-5 bg-black/30 md:bg-white/30 text-white rounded-4xl flex flex-col items-center justify-center md:flex-row">
+      <div className="md:w-[70%] my-5 p-5 bg-black/30 md:bg-white/10 backdrop-blur-2xl text-white rounded-4xl flex flex-col items-center justify-center md:flex-row">
         
         {/* Title Section */}
         <div className="flex justify-center items-center text-center md:w-5/12 my-3">

@@ -5,7 +5,7 @@ export default function Navbar() {
 
   return (
     <div
-      className="sticky top-1 z-50 p-4 m-1 md:px-10 md:py-4 lg:py-3 xl:py:3 2xl:py-3 rounded-2xl md:rounded-3xl transition-all duration-300 backdrop-blur-3xl bg-black/40 md:bg-black/50"
+      className="sticky top-1 z-50 p-4 m-1 md:px-10 md:py-4 lg:py-3 xl:py:3 2xl:py-3 rounded-xl md:rounded-xl transition-all duration-300 backdrop-blur-3xl bg-black/40 md:bg-black/50"
     >
       <ul className="flex justify-between items-center">
         {/* Logo Section */}

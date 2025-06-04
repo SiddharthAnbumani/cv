@@ -19,10 +19,10 @@ export default function Home() {
 
       <div className="content">
         {/* Centering Section */}
-        <div className="flex flex-col justify-center items-center min-h-[70vh]">
+        <div className="flex flex-col justify-center items-center min-h-[80vh]">
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-            <h1 className="text-3xl p-5 font-extrabold text-white font-[anton] text-center [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)] sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl">
-              This is Siddharth Anbumani
+            <h1 className="text-5xl p-5 font-extrabold text-white font-[anton] text-center [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)] sm:text-9xl md:text-7xl lg:text-6xl xl:text-6xl 2xl:text-7xl">
+              This is <br/> Siddharth Anbumani
             </h1>
           </motion.div>
 
@@ -47,7 +47,7 @@ export default function Home() {
 
         {/* Services Section */}
         <div className="flex flex-col justify-center">
-          <h1 className='md:py-10 text-2xl slide-down text-white font-extrabold text-center font-[alata] [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)] mt-10 md:mt-20 lg:text-5xl xl:text-5xl 2xl:text-5xl lg:mt-15 xl:my-15 2xl:mt-15'>My Services</h1>
+          <h1 className='mb-10 md:mb-0  md:py-10 text-3xl slide-down text-white font-extrabold text-center font-[alata] [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)] mt-10 md:mt-20 lg:text-5xl xl:text-5xl 2xl:text-5xl lg:mt-15 xl:my-15 2xl:mt-15'>My Services</h1>
           <Services />
         </div>
 
