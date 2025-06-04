@@ -57,7 +57,7 @@ export default function Footer() {
               href="/">Siddharth Anbumani</a>
               <NavLink 
               className="transition-transform duration-300 hover:scale-110"
-              to="/home">Home</NavLink>
+              to="/">Home</NavLink>
 
               <NavLink 
               className="transition-transform duration-300 hover:scale-110"

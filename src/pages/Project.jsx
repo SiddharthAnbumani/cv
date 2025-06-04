@@ -16,10 +16,10 @@ export default function Project() {
 
       <div className="spline-background">
         {/* <Spline scene="/spline/cyber_mannequi÷n.spline" /> */}
-        <Spline scene="/spline/robot_new.spline" />
+        <Spline scene="/spline/home-gradient.spline" />
       </div>
 
-      <div className="content2">
+      <div className="content2 bg-black/40">
         {/* The Project Content Starts Here */}
         <div className="flex flex-col md:flex-row w-full justify-center items-center space-y-5 md:space-y-0">
 
@@ -55,7 +55,7 @@ export default function Project() {
           </div>
 
           {/* Spacer */}
-          <div className="hidden md:block  md:w-[90px] lg:w-1/3"></div>
+          {/* <div className="hidden md:block  md:w-[90px] lg:w-1/3"></div> */}
 
           {/* Right Section */}
           <div className="flex flex-col space-y-10 w-full md:w-1/3 items-center ">

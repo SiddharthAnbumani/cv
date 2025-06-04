@@ -26,9 +26,9 @@ export default function Navbar() {
 
         {/* Links Section */}
         <div className="flex gap-1 text-[10px] md:text-lg lg:text-xl">
-          <li className="font-bold px-1 md:px-4 py-1 sm:py-2 rounded-md">
+          {/* <li className="font-bold px-1 md:px-4 py-1 sm:py-2 rounded-md">
             <NavLink
-              to="/home"
+              to="/"
               className={({ isActive }) =>
                 isActive ? "text-amber-500 font-bold" : "text-white"
               }
@@ -37,7 +37,7 @@ export default function Navbar() {
                 Home
               </p>
             </NavLink>
-          </li>
+          </li> */}
 
           <li className="font-bold px-1 md:px-4 py-1 sm:py-2 rounded-md">
             <NavLink

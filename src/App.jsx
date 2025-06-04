@@ -17,8 +17,8 @@ export default function App(){
       <BrowserRouter>
       <ScrollToTop/>
         <Routes>
-          <Route path="/" element={<Landing/>}/>
-          <Route path="/home" element={<Home/>}/>
+          {/* <Route path="/" element={<Landing/>}/> */}
+          <Route path="/" element={<Home/>}/>
           <Route path="/project" element={<Project/>}/>
 
           <Route path="/thinksync" element={<ThinkSync/>} />

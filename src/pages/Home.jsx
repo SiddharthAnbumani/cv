@@ -53,7 +53,7 @@ export default function Home() {
 
         {/* View My Works Button */}
         <div className="flex justify-center slide-up ">
-          <a href="/project" className="bg-white p-2 my-10 md:my-20 md:px-4 md:py-2 rounded-3xl font-extrabold text-lg transition-transform duration-300 hover:scale-110">
+          <a href="/project" className="bg-white p-2 my-10 md:my-20 md:px-4 md:py-2 rounded-xl font-extrabold text-lg transition-transform duration-300 hover:scale-110">
             <p className='text-black text-sm md:text-xl w-50 text-center'>
               View My Works
             </p> 
