@@ -6,13 +6,13 @@ export default function Timeline({ year, title, content, ani }) {
 
   return (
     <div className="">
-      <Wrapper
+      {/* <Wrapper
         {...(ani && {
           initial: { x: -100, opacity: 0 },
           animate: { x: 0, opacity: 1 },
           transition: { duration: 1, type: 'tween' }
         })}
-      >
+      > */}
         <div className="flex flex-col sm:flex-row backdrop-blur-3xl bg-black/70 p-5 rounded-4xl">
 
       <div className="w-full sm:w-5/12 flex justify-center items-center mb-4 sm:mb-0">
@@ -24,11 +24,11 @@ export default function Timeline({ year, title, content, ani }) {
 
       <div className="w-full sm:w-7/12 flex flex-col justify-center items-center lg:m-2 lg:px-2">
         <h1 className="font-bold text-md text-center lg:text-3xl mx-1">{title}</h1>
-        <p className="text-center text-xs lg:text-lg font-semibold p-3">{content}</p>
+        <p className="text-justify text-xs lg:text-lg font-semibold p-3 hyphens-auto leading-6 lg:px-10">{content}</p>
       </div>
 </div>
 
-      </Wrapper>
+      {/* </Wrapper> */}
     </div>
   );
 }

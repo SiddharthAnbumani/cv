@@ -1,9 +1,12 @@
+import Navbar from "../../components/Navbar"
 import IndividualProject from "../../components/project/IndividualProject"
 import Spline from "@splinetool/react-spline"
 
 export default function ThinkSync(){
     return(
         <div className="flex flex-col">
+                        <Navbar/>
+            
             <div className="spline-background">
                 <Spline scene="/spline/lines.spline" />
             </div>
@@ -16,7 +19,7 @@ export default function ThinkSync(){
                 img3="thinksync/view.png"
                 img4="thinksync/new.png"
                 description="ThinkSync is my first full-stack application, built using MongoDB, 
-                Express, and Node.js — showcasing my proficiency with the MEN stack. It highlights 
+                Express, and Node.js — showcasing my proficiency with Node, express and MongoDB. It highlights 
                 my ability to develop robust server-side applications, implement seamless CRUD 
                 operations, and manage structured API routing with middleware-driven request handling 
                 using Express.js. Secure user authentication and authorization are implemented using 

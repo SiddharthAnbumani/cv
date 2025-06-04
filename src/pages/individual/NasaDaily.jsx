@@ -1,9 +1,12 @@
 import Spline from "@splinetool/react-spline"
 import IndividualProject from "../../components/project/IndividualProject"
+import Navbar from "../../components/Navbar"
 
 export default function NasaDaily(){
     return (
         <div className="">
+                        <Navbar/>
+            
             <div className="spline-background">
         <Spline scene="/spline/lines.spline" />
             </div>

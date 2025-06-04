@@ -1,4 +1,5 @@
 
+import { NavLink } from "react-router-dom"
 import VideoComponent from "../VideoComponent"
 import { motion } from "framer-motion"
 
@@ -60,8 +61,8 @@ export default function IndividualProject({
 
         { vid1 ? <VideoComponent source1={vid1}/> : null}
         { vid2 ? <VideoComponent source1={vid2}/> : null}
-        <div className=" slide-up bg-white/30 backdrop-blur-3xl rounded-3xl m-5 p-5 md:my-10 md:p-10">
-            <p className="text-sm w-[300px] md:w-full md:text-lg text-white font-semibold">
+        <div className=" slide-up bg-white/30 backdrop-blur-3xl rounded-2xl m-5 p-5 md:my-10 md:p-10 lg:w-[80%]">
+            <p className="text-sm w-[300px =] md:w-full md:text-lg text-white font-semibold text-justify hyphens-auto ">
                 {description} 
             </p>
 
@@ -91,9 +92,9 @@ export default function IndividualProject({
         </div>
 
 
-            <a href="/project" className="bg-white/70 my-5 mb-10 px-10 py-3 rounded-3xl font-bold text-lg text-black transition-transform duration-300 hover:bg-white hover:text-blue-950 hover:scale-110">
+            <NavLink to="/project" className="bg-white/70 my-5 mb-10 px-10 py-3 rounded-xl font-bold text-lg text-black transition-transform duration-300 hover:bg-white hover:text-blue-950 hover:scale-110">
                 back
-            </a>
+            </NavLink>
 
     </div>
     )

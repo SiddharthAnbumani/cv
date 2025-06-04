@@ -1,9 +1,11 @@
+import Navbar from "../../components/Navbar"
 import IndividualProject from "../../components/project/IndividualProject"
 import Spline from "@splinetool/react-spline"
 
 export default function EnduroChrono(){
     return(
         <div className="flex flex-col">
+            <Navbar/>
             <div className="spline-background">
                 <Spline scene="/spline/lines.spline" />
             </div>

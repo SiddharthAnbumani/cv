@@ -68,7 +68,7 @@ export default function Navbar() {
           <li className="font-bold px-1 md:px-4 py-1 sm:py-2 rounded-md">
             <a
               className="text-white hover:text-blue-500"
-              href="/resume.pdf"
+              href="/Siddharth_Anbumani.pdf"
               download="Siddharth_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"

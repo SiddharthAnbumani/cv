@@ -14,7 +14,7 @@ export default function About(){
           <Spline scene="/spline/lines.spline" />
         </div>
           <div className="content">
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center lg:mt-30 lg:mb-15">
               <div className="">
                 <h1 className="text-4xl text-center lg:text-8xl font-extrabold text-white [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)] ">The Path I Chose..</h1>
               </div>
