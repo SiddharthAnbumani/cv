@@ -5,7 +5,9 @@ export default function Timeline({ year, title, content, ani }) {
   const Wrapper = ani ? motion.div : 'div';
 
   return (
-    <div className="">
+    <div className="w-screen flex justify-center">
+
+    <div className="w-[90%] flex flex-col justify-center items-center">
       {/* <Wrapper
         {...(ani && {
           initial: { x: -100, opacity: 0 },
@@ -13,7 +15,7 @@ export default function Timeline({ year, title, content, ani }) {
           transition: { duration: 1, type: 'tween' }
         })}
       > */}
-        <div className="flex flex-col sm:flex-row backdrop-blur-3xl bg-black/70 p-5 rounded-4xl">
+        <div className="flex flex-col sm:flex-row  bg-black/70 p-5 rounded-4xl backdrop-blur-3xl">
 
       <div className="w-full sm:w-5/12 flex justify-center items-center mb-4 sm:mb-0">
         <p className="lg:text-8xl sm:text-3xl font-extrabold text-white">{year}</p>
@@ -30,6 +32,8 @@ export default function Timeline({ year, title, content, ani }) {
 
       {/* </Wrapper> */}
     </div>
+    </div>
+
   );
 }
 

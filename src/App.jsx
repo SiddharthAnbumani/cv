@@ -10,6 +10,7 @@ import EnduroChrono from "./pages/individual/EnduroChrono"
 import NasaDaily from "./pages/individual/NasaDaily"
 import Skipsense from "./pages/individual/SkipSense"
 import ScrollToTop from "./components/ScrollToTop"
+import Canvas from "./pages/Canvas"
 
 export default function App(){
   return (
@@ -20,6 +21,7 @@ export default function App(){
           {/* <Route path="/" element={<Landing/>}/> */}
           <Route path="/" element={<Home/>}/>
           <Route path="/project" element={<Project/>}/>
+          <Route path="/canvas" element={<Canvas/>}/>
 
           <Route path="/thinksync" element={<ThinkSync/>} />
           <Route path="/skipsense" element={<Skipsense/>} />

@@ -3,6 +3,9 @@ import Spline from "@splinetool/react-spline"
 import Footer from '../components/Footer'
 import Timeline from "../components/Timeline"
 import '../index.css'
+import WorkExp from "../components/WorkExp"
+import { motion } from "framer-motion";
+
 
 export default function About(){
   return(
@@ -14,6 +17,27 @@ export default function About(){
           <Spline scene="/spline/lines.spline" />
         </div>
           <div className="content">
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 3 }}>
+
+            <div className="mt-15 mb-10 flex flex-col justify-center items-center">
+                <h1 className="text-4xl text-center lg:text-6xl font-extrabold text-white [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)] mb-5  ">
+                  ABOUT
+                </h1>
+                    <p className="w-[80%] mx-4  text-justify hyphens-auto text-lg leading-6 my-4 font-light bg-white/10 backdrop-blur-3xl py-8 px-5 rounded-2xl border-1">
+                  I'm Siddharth Anbumani — a vehement full-stack web developer with a strong drive to build scalable, efficient, and impactful digital experiences. I specialize in crafting modern web applications using React, Next.js, Node.js, and Express, backed by robust databases like MongoDB and PostgreSQL.
+My journey into web development is rooted in a deep enthusiasm for both design and functionality. <br/>
+ I’m currently exploring Three.js to bring immersive 3D interfaces to life and leveraging GSAP for smooth, interactive animations that elevate user engagement
+Proficient in JavaScript and Python, I aim to bridge creative ideas with technical execution. I'm also venturing into React Native to build seamless, high-performance mobile applications that complement my full-stack web expertise.
+Whether it’s building from scratch or optimizing existing systems, I thrive on turning complex problems into elegant solutions — and I’m just getting started.
+                </p>
+            </div>
+            </motion.div>
+
+             <div className="">
+            <WorkExp/>
+          </div>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 3 }}>
+
             <div className="flex flex-col justify-center items-center lg:mt-30 lg:mb-15">
               <div className="">
                 <h1 className="text-4xl text-center lg:text-8xl font-extrabold text-white [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)] ">The Path I Chose..</h1>
@@ -22,15 +46,20 @@ export default function About(){
                 <p className="text-lg lg:text-2xl text-center text-white font-semibold m-2">Why web development became my calling, and how I’m constantly evolving as a creator.</p>
               </div>
             </div>
-          <div className="flex flex-col space-y-10 my-10">
-            <Timeline 
-            ani="true"
-            year='2020'
-            title='The Year of Great Escape'
-            content='Successfully graduated 10th StateBoard without even lifting a pen. 
-            Thanks to COVID, my exam papers were socially distanced from me!'
-            />
+        </motion.div>
 
+          <div className="flex flex-col space-y-10 my-10">
+            <div className="slide-left">
+              <Timeline 
+              ani="true"
+              year='2020'
+              title='The Year of Great Escape'
+              content='Successfully graduated 10th StateBoard without even lifting a pen. 
+              Thanks to COVID, my exam papers were socially distanced from me!'
+              />
+            </div>
+
+            <div className="slide-left">
             <Timeline 
             ani="true"
             year='2021'
@@ -40,6 +69,8 @@ export default function About(){
             But amidst the chaos, it was a pivotal year — I hung up my swimming goggles and took a 
             deep dive into new passions, charting a whole new course."
             />
+            </div>
+
             <div className="slide-left">
               <Timeline 
               year='2022'
@@ -96,6 +127,8 @@ export default function About(){
               />
             </div>
           </div>
+         
+
           </div>
         </div>
         <Footer/>
