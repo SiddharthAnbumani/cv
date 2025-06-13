@@ -26,7 +26,7 @@ export default function About(){
                 </h1>
             </div>
             </motion.div>
-                <p className="w-[80%] mx-4  text-justify hyphens-auto text-lg leading-6 my-4 font-light bg-white/10 backdrop-blur-3xl py-8 px-5 rounded-2xl border-1 border-white/15">
+                <p className="w-[90%] lg:w-[80%] mx-4  text-justify hyphens-auto text-lg leading-6 my-4 font-light bg-white/10 backdrop-blur-3xl py-8 px-5 rounded-2xl border-1 border-white/15">
                   I'm Siddharth Anbumani — a vehement full-stack web developer with a strong drive to build scalable, efficient, and impactful digital experiences. I specialize in crafting modern web applications using React, Next.js, Node.js, and Express, backed by robust databases like MongoDB and PostgreSQL.
                   My journey into web development is rooted in a deep enthusiasm for both design and functionality. <br/>
                   I’m currently exploring Three.js to bring immersive 3D interfaces to life and leveraging GSAP for smooth, interactive animations that elevate user engagement

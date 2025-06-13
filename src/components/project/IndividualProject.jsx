@@ -62,7 +62,7 @@ export default function IndividualProject({
         { vid1 ? <VideoComponent source1={vid1}/> : null}
         { vid2 ? <VideoComponent source1={vid2}/> : null}
         <div className=" slide-up bg-white/30 backdrop-blur-3xl rounded-2xl m-5 p-5 md:my-10 md:p-10 lg:w-[80%]">
-            <p className="text-sm w-[300px =] md:w-full md:text-lg text-white font-semibold text-justify hyphens-auto ">
+            <p className="text-sm w-[300 px] md:w-full md:text-lg text-white font-semibold text-justify hyphens-auto ">
                 {description} 
             </p>
 

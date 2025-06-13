@@ -14,7 +14,7 @@ export default function Navbar() {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                isActive ? "text-amber-500 font-bold" : "text-white"
+                isActive ? "text-blue-400 font-bold" : "text-white"
               }
             >
               <p className="md:hover:text-xl hover:font-extrabold transition-all duration-300 ease-in-out">
@@ -43,10 +43,10 @@ export default function Navbar() {
             <NavLink
               to="/contact"
               className={({ isActive }) =>
-                isActive ? "text-amber-500 font-bold" : "text-white"
+                isActive ? "text-blue-400 font-bold" : "text-white"
               }
             >
-              <p className=" md:hover:text-xl hover:font-extrabold transition-all duration-300 ease-in-out">
+              <p className=" md:hover:text-xl hover:font-extrabold transition-all duration-300 ease-in-out hover:text-green-300">
                 About
               </p>
             </NavLink>
@@ -56,10 +56,10 @@ export default function Navbar() {
             <NavLink
               to="/project"
               className={({ isActive }) =>
-                isActive ? "text-amber-500 font-bold" : "text-white"
+                isActive ? "text-blue-400 font-bold" : "text-white"
               }
             >
-              <p className=" md:hover:text-xl hover:font-extrabold transition-all duration-300 ease-in-out">
+              <p className=" md:hover:text-xl hover:font-extrabold transition-all duration-300 ease-in-out hover:text-green-300">
                 Projects
               </p>
             </NavLink>
@@ -67,8 +67,8 @@ export default function Navbar() {
 
           <li className="font-bold px-1 md:px-4 py-1 sm:py-2 rounded-md">
             <a
-              className="text-white hover:text-blue-500"
-              href="/Siddharth_Anbumani.pdf"
+              className="text-white hover:text-green-300"
+              href="/SiddharthAnbumaniJune25.pdf"
               download="Siddharth_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
