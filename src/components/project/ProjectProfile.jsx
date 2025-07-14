@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function ProjectProfile({ title, description, img, page, tag }) {
   return (
-    <div className="flex justify-center items-center w-[350px] md:w-[350px] lg:w-[450px] xl:w-full md:p-10 p-1">
+    <div className="flex justify-center items-center w-[375px] md:w-[350px] lg:w-[450px] xl:w-full md:p-10 p-1">
       <div className="flex flex-col items-center justify-center lg:h-[450px] bg-black/70 border-1 border-white/15 backdrop-blur-3xl rounded-3xl p-5 transition-transform duration-200 hover:scale-110 lg:w-full">
         <h1 className="text-2xl m-2 font-extrabold">{title}</h1>
         {tag ? (

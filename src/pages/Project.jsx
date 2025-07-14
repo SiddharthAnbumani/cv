@@ -91,16 +91,17 @@ export default function Project() {
         </div>
 
         {/* Currently Working */}
-        <div className="hidden w-screen md:flex justify-center my-10">
-        <div className="bg-white/20 w-[70%] backdrop-blur-4xl rounded-xl flex flex-col items-center">
-        <h1 className="text-5xl font-extrabold font-[alan] my-5 text-green-400">Currently Working On </h1>
-        <h1 className="text-4xl font-extrabold font-[helvetica] my-2">Waves Swim Academy</h1>
+        <div className="w-screen justify-center items-center">
+        <div className=" w-screen flex justify-center items-center my-10">
+        <div className="bg-black/70 w-[375px]  md:w-[70%] backdrop-blur-4xl rounded-xl flex flex-col items-center backdrop-blur-3xl">
+        <h1 className="text-4xl md:text-5xl font-extrabold font-[alan] my-5 text-green-400 text-center">Currently Working On </h1>
+        <h1 className="text-3xl md:text-4xl font-extrabold font-[helvetica] my-2">Waves Swim Academy</h1>
         <p className="bg-black/50 font-extrabold text-center w-[300px] rounded-lg text-[12px] p-2 text-lg">Single Page enterprise Application</p>
         <div className="flex space-x-3 my-2">
-        <video src="/cv_waves.mov" autoPlay muted  loop alt="" className="border-b-amber-50 w-90 rounded-lg" />
+        <video src="/cv_waves.mov" autoPlay muted  loop alt="" className="border-b-amber-50 w-80 md:w-90 rounded-md md:rounded-lg" />
 
         </div>
-        <p className="text-lg text-justify px-12 hyphens-auto leading-6 ">Developing a visually rich and responsive single-page application (SPA) for Waves Swim Academy using 
+        <p className="text-lg text-justify px-6 md:px-12 hyphens-auto leading-6 ">Developing a visually rich and responsive single-page application (SPA) for Waves Swim Academy using 
           React and Tailwind CSS, focused on delivering a premium desktop-first experience. The site showcases the academy’s coaching philosophy, 
           competitive achievements, and facility highlights, serving as an engaging informational platform for parents and aspiring athletes.</p>
            <p className="font-extrabold text-xl my-3 text-blue-600">Powered By</p>
@@ -112,6 +113,7 @@ export default function Project() {
           <img src="/tailwindcss.png" alt="" className="rounded-2xl w-[40px] h-[40px] md:w-[60px] md:h-[50px] p-1 bg-black/30"/>
         </div>
 
+        </div>
         </div>
         </div>
 
