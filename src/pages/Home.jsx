@@ -16,10 +16,12 @@ export default function Home() {
       </div>
 
       <div className="overlay"></div>
-
       <div className="content">
         {/* Centering Section */}
-        <div className="flex flex-col justify-center items-center min-h-[80vh]">
+          <div style={{ width: "100vw", height: "100vh" }}>
+          <Spline scene="/landing.spline" />
+        </div>
+        {/* <div className="flex flex-col justify-center items-center min-h-[80vh]">
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
             <h1 className="text-5xl p-5 font-extrabold text-white font-[anton] text-center [text-shadow:8px_8px_16px_rgba(255,255,255,0.5)] sm:text-9xl md:text-7xl lg:text-6xl xl:text-6xl 2xl:text-7xl">
               This is Siddharth Anbumani
@@ -31,7 +33,7 @@ export default function Home() {
               Web Designer <br/> + Web Developer
             </h1>
           </motion.div>
-        </div>
+        </div> */}
 
         {/* Tech Stack Section */}
         <div className='flex flex-col justify-center items-center md:mt-32'>
